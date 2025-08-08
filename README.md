@@ -13,15 +13,6 @@ The testing was performed on **bWAPP**, a deliberately insecure web application,
 
 ---
 
-## 🧑‍💻 Intern Details
-- **Name:** M Fathima Jemina  
-- **Specialization:** Cybersecurity  
-- **Institution:** BSA Crescent University  
-- **Role:** Web Application Pentester (Intern)  
-- **Organization:** Future Interns  
-
----
-
 ## 🔍 Target Application
 - **Application:** bWAPP (Bee-box)
 - **Platform:** Linux (Bee-box VM)
