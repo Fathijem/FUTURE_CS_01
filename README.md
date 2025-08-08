@@ -15,7 +15,7 @@ The testing was performed on **bWAPP**, a deliberately insecure web application,
 
 ## 🔍 Target Application
 - **Application:** bWAPP (Bee-box)
-- **Platform:** Linux (Bee-box VM)
+- **Platform:** Linux (Bee-box VM) and Website.
 - **Purpose:** Security training and penetration testing practice
 
 ---
@@ -85,6 +85,7 @@ flowchart LR
     C --> D[Password Attacks using Burp Intruder]
     D --> E[Vulnerability Verification]
     E --> F[Document Findings & PoC]
+    F --> G[Mitigation Recommendations]
 ```
 
 ---
@@ -109,5 +110,5 @@ flowchart LR
 - [bWAPP Official Page](http://www.itsecgames.com/)
 - [Burp Suite Documentation](https://portswigger.net/burp/documentation)
 - [OWASP ZAP Documentation](https://www.zaproxy.org/docs/)
-    F --> G[Mitigation Recommendations]
+  
 
