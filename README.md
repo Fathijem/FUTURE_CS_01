@@ -2,14 +2,17 @@
 
 ## 📌 Internship Project – Future Interns
 This project was completed as part of my internship program with **Future Interns**, focusing on **Web Application Penetration Testing**.  
-The testing was performed on **bWAPP**, a deliberately insecure web application, to identify and exploit vulnerabilities in alignment with the **OWASP Top 10**.
+The testing was performed on **bWAPP**, a vulnerable web application, to identify and exploit vulnerabilities in alignment with the **OWASP Top 10**.
 
 ---
 
 ## 🎯 Objective
+-  Conduct Vulnerability scan
+-  Create Security Report
 - Gain practical experience in identifying, exploiting, and mitigating web application vulnerabilities.
 - Apply penetration testing methodologies in a **safe, controlled lab environment**.
 - Demonstrate the use of professional security testing tools.
+
 
 ---
 
@@ -52,7 +55,6 @@ The following vulnerabilities from **OWASP Top 10 (2021)** were identified and s
 ### **A05:2021 – Security Misconfiguration**
 - **Exposed FTP Service** – Anonymous login enabled.
 - **Open SSH Service** – Weak credentials permitted access.
-- **Unnecessary Services Running** – Services exposed without firewall restrictions.
 
 ---
 
@@ -68,11 +70,8 @@ The following vulnerabilities from **OWASP Top 10 (2021)** were identified and s
 | A03 | PHP Code Injection | Full server compromise | Critical | Manual exploitation |
 | A05 | Exposed FTP Service | Unauthorized file retrieval | Medium | FTP Client |
 | A05 | Open SSH with Weak Creds | Unauthorized server access | High | SSH Client |
-| A05 | Unnecessary Services | Increased attack surface | Medium | Nmap |
 | A07 | Weak Passwords | Unauthorized account access | High | Burp Suite |
 | A07 | Password Brute-Force | Account takeover | High | Burp Suite |
-| A07 | No Account Lockout | Unlimited login attempts | Medium | Burp Suite |
-
 
 ---
 
