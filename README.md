@@ -50,7 +50,6 @@ The following vulnerabilities from **OWASP Top 10 (2021)** were identified and s
 ### **A07:2021 – Identification and Authentication Failures**
 - **Weak Passwords** – Default and weak credentials identified.
 - **Password Attacks** – Brute-force using Burp Suite Intruder.
-- **No Account Lockout** – Unlimited failed login attempts.
 
 ### **A05:2021 – Security Misconfiguration**
 - **Exposed FTP Service** – Anonymous login enabled.
