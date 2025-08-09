@@ -1,4 +1,4 @@
-<img width="602" height="250" alt="image" src="https://github.com/user-attachments/assets/1b9784eb-d857-42b9-ba7e-7f5b94ebb6dc" /># SQL Injection – Data Extraction & Password Cracking
+# SQL Injection – Data Extraction & Password Cracking
 
 ## 1. Description
 SQL Injection (SQLi) is a critical vulnerability that occurs when user input is embedded directly into SQL queries without proper sanitization.  
@@ -29,6 +29,7 @@ This allows attackers to enumerate database schema, extract user credentials, an
 ```
 GET method: title in /sqli_1.php
 ```
+<img width="602" height="250" alt="image" src="https://github.com/user-attachments/assets/1b9784eb-d857-42b9-ba7e-7f5b94ebb6dc" />
 
 ---
 
