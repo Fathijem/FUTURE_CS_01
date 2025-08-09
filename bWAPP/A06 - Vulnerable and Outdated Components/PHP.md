@@ -12,7 +12,6 @@ This often arises from the misuse of PHP-CGI binary or improper `php.ini` config
 ## 2. CVSS Score & Severity
 **Severity:** Critical  
 **CVSS v3.1 Base Score:** **9.8**  
-**Vector:** AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
 
 ---
 
