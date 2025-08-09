@@ -27,9 +27,10 @@ The testing was performed on **bWAPP**, a deliberately vulnerable web applicatio
 |------|---------|
 | **bWAPP** | Vulnerable target application |
 | **Burp Suite** | Password brute-force (Intruder), manual testing |
+| **Nmap** | Vulnerabiltiy Scanning |
+| **Metasloit** | Exploitation of Vulnerability |
 | **OWASP ZAP** | Automated scanning, site mapping, manual vulnerability scanning |
-| **Kali Linux Utilities** | Reconnaissance and exploitation |
-| **FTP / SSH Clients** | Service misconfiguration testing |
+| **FTP Client** | Service misconfiguration testing |
 
 ---
 
