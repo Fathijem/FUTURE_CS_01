@@ -97,7 +97,7 @@ Now we dump data from the target table.
 ```
 <img width="602" height="251" alt="image" src="https://github.com/user-attachments/assets/f80b984e-5d3a-4116-bd8e-627042207424" />
 
-## Step 7: Prevention & Mitigation
+## 7. Prevention & Mitigation
 
 | Method                   | Description                                                                                   |
 |--------------------------|-----------------------------------------------------------------------------------------------|
