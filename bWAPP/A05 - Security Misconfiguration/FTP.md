@@ -40,7 +40,8 @@ By viewing this, we can find the Apache Server version, the ip of the vulnerable
 
 
 ### **Nmap Scan Output**
-<img width="1280" height="378" alt="image" src="https://github.com/user-attachments/assets/4544424a-d47f-4016-94e4-b7ad97bd85aa" />
+![Nmap_Scan](https://github.com/user-attachments/assets/043cd82d-5c71-4c49-87b8-3438c26d73bd)
+
 
 ---
 
