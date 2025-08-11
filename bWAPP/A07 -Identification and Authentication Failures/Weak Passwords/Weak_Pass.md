@@ -47,7 +47,8 @@ The vulnerability was confirmed using:
 
 ### Step 1 – Access the login page
 Navigate to the web application's login form.  
-<img width="867" height="270" alt="image" src="https://github.com/user-attachments/assets/7494caff-b5e0-49df-be05-04c01ff8a737" />
+<img width="752" height="329" alt="image" src="https://github.com/user-attachments/assets/7fd73d51-d11b-4ab2-ab27-fc519b227ced" />
+
 
 ---
 
