@@ -51,6 +51,7 @@ The vulnerability was confirmed using:
 - **Manual Testing** – Injected payloads in the application forms and observed JavaScript execution.
 
 **ZAP Scan Screenshot:**
+
 <img width="842" height="398" alt="image" src="https://github.com/user-attachments/assets/36752652-866d-4fca-8999-1efaff5ee407" />
 
 ---
